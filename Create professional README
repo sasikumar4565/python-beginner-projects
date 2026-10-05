@@ -1,57 +1,47 @@
-# 🐍 Python Beginner Projects
+# 👋 Hi, I'm Sasi
 
-Welcome to my Python Beginner Projects repository! 👋
+I'm a student developer learning programming and building practical projects. 🚀
 
-I am learning Python programming by building small practical projects.
+## 💻 What I'm Learning
 
-## 🚀 Projects
+- 🐍 Python
+- 💻 C++
+- 🤖 Arduino
+- ⚙️ Embedded Systems
+- 🌐 Web Development
+- 🔧 Git & GitHub
 
-| # | Project | Description |
-|---|---------|-------------|
-| 1 | Calculator | Performs basic mathematical operations |
-| 2 | Quiz Game | Asks questions and calculates the score |
-| 3 | Number Guessing Game | Guess a randomly generated number |
-| 4 | Student Marks Calculator | Calculates marks, average and grade |
-| 5 | To-Do List | Manages daily tasks |
-| 6 | Expense Tracker | Records and calculates expenses |
-| 7 | Password Generator | Generates random passwords |
-| 8 | Countdown Timer | Creates a countdown timer |
-| 9 | Student Management System | Stores and searches student information |
-| 10 | Weather App | Displays weather information using an API |
+## 🚀 My Projects
 
-## 🛠️ Skills
+### 🐍 Python Beginner Projects
 
-- Python
-- Variables
-- Data Types
-- If / Else
-- Loops
-- Lists
-- Dictionaries
-- Functions
-- Random module
-- Time module
-- APIs
-- JSON
-- Basic Problem Solving
+A collection of 10 Python projects:
+
+- Calculator
+- Quiz Game
+- Number Guessing Game
+- Student Marks Calculator
+- To-Do List
+- Expense Tracker
+- Password Generator
+- Countdown Timer
+- Student Management System
+- Weather App
+
+### 🤖 Arduino & Embedded Systems
+
+I also build Arduino-based projects using sensors, motors,
+displays and automation systems.
 
 ## 🎯 My Goal
 
-My goal is to improve my programming skills and learn:
+To become a skilled programmer and embedded systems developer
+by continuously learning and building projects.
 
-- Python
-- C++
-- Arduino
-- Embedded Systems
-- Web Development
-- Git and GitHub
+## 📚 Currently Learning
 
-## 📈 Learning Journey
-
-This repository contains projects I created while learning Python.
-
-I plan to continue improving these projects and building larger applications.
+Python → C++ → Web Development → Embedded Systems
 
 ---
 
-⭐ Thanks for visiting my repository!
+⭐ Thanks for visiting my profile!
