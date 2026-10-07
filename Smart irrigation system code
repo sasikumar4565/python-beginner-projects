@@ -1,0 +1,40 @@
+// Smart Irrigation System
+// Arduino Uno + Soil Moisture Sensor + Relay + Pump
+
+const int soilPin = A0;
+const int relayPin = 7;
+
+// Adjust this value after testing your soil sensor
+const int dryThreshold = 600;
+
+void setup() {
+  Serial.begin(9600);
+
+  pinMode(soilPin, INPUT);
+  pinMode(relayPin, OUTPUT);
+
+  // Relay OFF initially
+  digitalWrite(relayPin, HIGH);
+
+  Serial.println("Smart Irrigation System Started");
+}
+
+void loop() {
+  int soilValue = analogRead(soilPin);
+
+  Serial.print("Soil Moisture Value: ");
+  Serial.println(soilValue);
+
+  if (soilValue > dryThreshold) {
+    // Soil is dry → pump ON
+    digitalWrite(relayPin, LOW);
+    Serial.println("Soil is DRY - Pump ON");
+  }
+  else {
+    // Soil is wet → pump OFF
+    digitalWrite(relayPin, HIGH);
+    Serial.println("Soil is WET - Pump OFF");
+  }
+
+  delay(1000);
+}
