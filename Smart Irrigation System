@@ -1,0 +1,28 @@
+# Smart Irrigation System
+
+## Aim
+Automatically water plants when the soil becomes dry.
+
+## Components
+- Arduino Uno
+- Soil Moisture Sensor
+- Relay Module
+- Water Pump
+- Jumper Wires
+
+## Working
+The soil moisture sensor checks the moisture level.
+When the soil is dry, Arduino activates the pump.
+When sufficient moisture is detected, the pump turns off.
+
+## Features
+- Automatic irrigation
+- Saves water
+- Reduces manual work
+- Simple Arduino-based system
+
+## Technologies
+- Arduino
+- C/C++
+- Sensors
+- Automation
